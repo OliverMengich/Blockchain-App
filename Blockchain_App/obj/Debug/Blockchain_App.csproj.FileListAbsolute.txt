@@ -1,0 +1,7 @@
+C:\Users\olive\source\repos\Blockchain_App\Blockchain_App\bin\Debug\Blockchain_App.exe.config
+C:\Users\olive\source\repos\Blockchain_App\Blockchain_App\bin\Debug\Blockchain_App.exe
+C:\Users\olive\source\repos\Blockchain_App\Blockchain_App\bin\Debug\Blockchain_App.pdb
+C:\Users\olive\source\repos\Blockchain_App\Blockchain_App\obj\Debug\Blockchain_App.csprojAssemblyReference.cache
+C:\Users\olive\source\repos\Blockchain_App\Blockchain_App\obj\Debug\Blockchain_App.csproj.CoreCompileInputs.cache
+C:\Users\olive\source\repos\Blockchain_App\Blockchain_App\obj\Debug\Blockchain_App.exe
+C:\Users\olive\source\repos\Blockchain_App\Blockchain_App\obj\Debug\Blockchain_App.pdb

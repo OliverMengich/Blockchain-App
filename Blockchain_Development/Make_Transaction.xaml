@@ -1,0 +1,81 @@
+﻿<Page
+    x:Class="Blockchain_Development.Make_Transaction"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Blockchain_Development"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="150"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+       
+        <TextBlock Text="Sender Public Key:"/>
+        
+        <TextBox x:Name="sender_address"
+                 Grid.Column="1"
+                 Width="700"
+                 IsReadOnly="True"
+                 VerticalAlignment="Top"
+                 HorizontalAlignment="Left"
+                 Margin="30"
+                 CornerRadius="10"
+                 />
+        <TextBlock Grid.Row="1"
+                   Text="Sender Private Key:"/>
+        <TextBox Grid.Row="1"
+                 Grid.Column="1"
+                 x:Name="sender_privateBox"
+                 IsReadOnly="True"
+                 Width="700"
+                 HorizontalAlignment="Left"
+                 Margin="30"
+                 CornerRadius="10"
+                 />
+        <TextBlock Grid.Row="2"
+                   Text="Recipient Public Key:"/>
+        <TextBox Grid.Row="2"
+                 Grid.Column="1"
+                 x:Name="receipient_address"
+                 Width="700"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="top"
+                 CornerRadius="10"
+                 />
+        <TextBlock Text="Amount"
+                   Grid.Row="3"/>
+        <TextBox Grid.Row="3"
+                 Grid.Column="1"
+                 Width="700"
+                 Name="amount_box"
+                 PlaceholderText="Enter A decimal Number"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top"
+                 Margin="10,10,0,0"
+                 CornerRadius="10" />
+        <Button x:Name="Generate_transaction"
+                Content="Generate Transaction"
+                Grid.Row="4"
+                VerticalAlignment="Top"
+                Margin="10,10,0,0"
+                CornerRadius="10"
+                Background="Blue"
+                Click="Generate_transaction_Click"
+                Grid.Column="1" />
+        <Frame x:Name="controdialog_fram">
+            
+        </Frame>
+    </Grid>
+</Page>
